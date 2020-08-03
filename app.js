@@ -7,6 +7,8 @@ urlAppWeb.addEventListener('click',(e) => { location.href= "https://github.com/s
 var idAndroid= document.querySelector("#idAndroid")
 idAndroid.addEventListener('click',(e) => { location.href= "https://github.com/sanpedrofabianezequiel/Beer-shop"})
 
+var idJavaProcesador= document.querySelector("#idJavaProcesador")
+idJavaProcesador.addEventListener('click',(e) => { location.href= "https://github.com/sanpedrofabianezequiel/ProcesadorDeTextos"})
 
 var idIconos= document.querySelectorAll(".sPequeña");
 
