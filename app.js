@@ -13,6 +13,8 @@ idJavaProcesador.addEventListener('click',(e) => { location.href= "https://githu
 var idJavaProcesador= document.querySelector("#idAjaxRest")
 idJavaProcesador.addEventListener('click',(e) => { location.href= "https://github.com/sanpedrofabianezequiel/AjaxREST"})
 
+var idSqlSever= document.querySelector("#idSqlSever")
+idSqlSever.addEventListener('click',(e) => { location.href= "https://github.com/sanpedrofabianezequiel/SQLserver"})
 
 
 var idIconos= document.querySelectorAll(".sPequeña");
@@ -30,3 +32,6 @@ urlPong.addEventListener('click',function () {
     location.href="https://github.com/sanpedrofabianezequiel/Pong.git"
   })
 
+setTimeout(() => {
+    
+}, timeout);
