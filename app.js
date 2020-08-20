@@ -27,11 +27,6 @@ idIconos.forEach(   x => {
 
 
 var urlPong=document.querySelector('#urlPong')
-
-urlPong.addEventListener('click',function () {
-    location.href="https://github.com/sanpedrofabianezequiel/Pong.git"
+urlPong.addEventListener('click',function () { location.href="https://github.com/sanpedrofabianezequiel/Pong.git"
   })
 
-setTimeout(() => {
-    
-}, timeout);
