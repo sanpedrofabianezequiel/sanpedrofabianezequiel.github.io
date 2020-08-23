@@ -22,8 +22,12 @@ var idIconos= document.querySelectorAll(".sPequeña");
 idIconos.forEach(   x => {
     x.addEventListener('click', function () {  location.href= "https://www.linkedin.com/in/ezequiel-san-pedro-24439b17b/" }) 
 });
+var whatsaap=document.querySelector("#whatsapp");
+whatsaap.addEventListener('click',(e)=>{  location.href="https://wa.me/1138690497?text=Hola%20Ezequiel%20,Como%20estas?%20Me%20Interesaria%20Coordinar%20una%20entrevista%20contigo%20.Muchas%20Gracias"})
 
 
+var git=document.querySelector("#git");
+git.addEventListener('click',(e)=>{  location.href="https://github.com/sanpedrofabianezequiel"})
 
 
 
