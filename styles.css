@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.columnaFija{
+    position:fixed;
+    width: 100px;
+    border: 1px solid black;
+    bottom: 2%;
+    border-radius: 5px;
+    visibility:visible;
+    font-size:30px;
+    background-color:#2B2D31;
+    text-align:center;
+    list-style-type: none;
+    align-items: center;
+    height: 25px;
+    padding-top: 0px;
+    
+
+  
+    
+}
+.columnaFija:hover .subMenu{
+    visibility: visible;
+    width: 230px;
+    cursor: pointer;                     
+}
+.subMenu{
+    visibility: hidden;
+    height: 0px;
+    position: absolute;
+    
+    
+}
+
+ul,li{
+    font-size: 12px;
+    margin: 0px;
+    text-align: left;
+    color:white;
+}
+p{
+    font-size: 15px;
+    margin: 0px;
+    color:white;
+    text-align: center;
+}
+.alto{
+    height: 400px;
+}
+body{
+    background-image: url("Imagenes/Fondos/fondos2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+footer{
+    background-color:white;
+}
